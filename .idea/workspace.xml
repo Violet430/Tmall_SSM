@@ -6,326 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc2689c1-dfdf-471f-8371-d984fb829f90" name="Default Changelist" comment="分类、属性、产品管理">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FETCH_HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ProductImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProductImage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/controller/ProductImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/controller/PropertyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/OrderItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/OrderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/ProductImageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/PropertyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/PropertyValueMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/ReviewMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/CategoryExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/CategoryExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/CategoryExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/CategoryExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderItemExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderItemExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderItemExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/OrderItemExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductImageExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductImageExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductImageExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ProductImageExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Property.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValueExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValueExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValueExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValueExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Review.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ReviewExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ReviewExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ReviewExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/ReviewExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/UserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/ProductImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/PropertyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/ProductImageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/PropertyServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/test/TestTmall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/util/ImageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/util/MybatisGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/util/OverIsMergeablePlugin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/util/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/util/UploadedImageFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PropertyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PropertyValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ReviewMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/controller/ProductImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/controller/PropertyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/OrderItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/OrderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/ProductImageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/PropertyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/PropertyValueMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/ReviewMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/CategoryExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/CategoryExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/CategoryExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/CategoryExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderItemExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderItemExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderItemExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/OrderItemExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductImageExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductImageExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductImageExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ProductImageExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Property.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValueExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValueExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValueExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValueExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Review.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ReviewExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ReviewExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ReviewExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/ReviewExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/UserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/ProductImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/PropertyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/ProductImageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/PropertyServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/test/TestTmall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/util/ImageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/util/MybatisGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/util/OverIsMergeablePlugin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/util/Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/util/UploadedImageFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ProductImageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/PropertyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/PropertyValueMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/ReviewMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/editCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/editProperty.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listProductImage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listProperty.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/include/admin/adminFooter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/include/admin/adminHeader.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/include/admin/adminNavigator.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/include/admin/adminPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/druid-1.0.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mybatis-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/pagehelper-5.1.2-beta.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-test-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/back/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/css/fore/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/category/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/lunbo/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productDetail/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_middle/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_middle/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_middle/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_middle/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_middle/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/7day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/alipay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/alipay2wei.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/buyflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/canvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/cartNotSelected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/cartSelected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/catear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/cateye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/chaoshi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/comformPayFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/confirmOrderTmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/copyRight1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/copyRight2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/creditcard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/decrease.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/eachcategory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/end.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/ensure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/gouwujuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/guoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/increase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/leaveMessage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/li_dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/loginBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/ma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/orderFinish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/orderItemTmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/paySuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/priceBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/promise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/registerSuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/renzheng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/reviewLight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/simpleLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/star/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/tmallbuy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/wangwang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/wangwang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/site/warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/bootstrap/3.3.6/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tmall_ssm/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" afterDir="false" />
+    <list default="true" id="dc2689c1-dfdf-471f-8371-d984fb829f90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/PropertyValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/PropertyValue.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -353,9 +39,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="java" value="61" />
+          <entry key="java" value="66" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="63" />
+          <entry key="jsp" value="64" />
           <entry key="properties" value="3" />
           <entry key="xml" value="31" />
         </counts>
@@ -363,8 +49,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="61" />
-          <entry key="JSP" value="63" />
+          <entry key="JAVA" value="66" />
+          <entry key="JSP" value="64" />
           <entry key="JavaScript" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="31" />
@@ -372,18 +58,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8245" />
+          <entry key="java" value="9333" />
           <entry key="jsp" value="127" />
           <entry key="properties" value="14" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="24" />
           <entry key="xml" value="402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8245" />
+          <entry key="JAVA" value="9333" />
           <entry key="JSP" value="127" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="14" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="401" />
@@ -394,27 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProduct.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-100">
               <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductImageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -432,29 +101,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ProductImageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProductImage.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -466,14 +112,101 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="62" column="61" lean-forward="true" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+            <state relative-caret-position="413">
+              <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/PropertyValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/PropertyValueService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyValueServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/PropertyValueController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -529,6 +262,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/PropertyValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/PropertyValueService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyValueServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/PropertyValueController.java" />
       </list>
     </option>
   </component>
@@ -553,8 +290,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="33" />
-    <option name="y" value="-20" />
+    <option name="x" value="-98" />
+    <option name="y" value="-29" />
     <option name="width" value="1735" />
     <option name="height" value="990" />
   </component>
@@ -606,15 +343,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tmall" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -725,7 +453,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541490786066" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541515546343" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -883,7 +611,7 @@
       <workItem from="1541081218672" duration="4597000" />
       <workItem from="1541167074859" duration="6253000" />
       <workItem from="1541428193166" duration="4604000" />
-      <workItem from="1541488865861" duration="1910000" />
+      <workItem from="1541488865861" duration="6423000" />
     </task>
     <task id="LOCAL-00001" summary="分类、属性、产品管理">
       <created>1541485502668</created>
@@ -892,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541485502668</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加产品图片管理">
+      <created>1541490842227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541490842227</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51903000" />
+    <option name="totallyTimeSpent" value="56416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -911,7 +646,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -921,7 +656,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31811023" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31403762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -987,15 +722,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="分类、属性、产品管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="分类、属性、产品管理" />
+    <MESSAGE value="增加产品图片管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加产品图片管理" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/back/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery/2.0.0/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/test/TestTmall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1261,16 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61">
@@ -1354,11 +1074,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="62" column="61" lean-forward="true" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+        <state relative-caret-position="413">
+          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/PropertyValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/PropertyValueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyValueServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/PropertyValueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
