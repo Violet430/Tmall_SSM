@@ -22,6 +22,17 @@ public class Product {
     //非数据库字段
     private Category category;
 
+    //新增————————》产品图片
+    private ProductImage firstProductImage;
+
+    public ProductImage getFirstProductImage() {
+        return firstProductImage;
+    }
+
+    public void setFirstProductImage(ProductImage firstProductImage) {
+        this.firstProductImage = firstProductImage;
+    }
+
     public Category getCategory() {
         return category;
     }

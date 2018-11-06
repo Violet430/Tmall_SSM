@@ -5,7 +5,9 @@ import com.viol3t.tmall.mapper.ProductMapper;
 import com.viol3t.tmall.pojo.Category;
 import com.viol3t.tmall.pojo.Product;
 import com.viol3t.tmall.pojo.ProductExample;
+import com.viol3t.tmall.pojo.ProductImage;
 import com.viol3t.tmall.service.CategoryService;
+import com.viol3t.tmall.service.ProductImageService;
 import com.viol3t.tmall.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,6 +20,8 @@ public class ProductServiceImpl implements ProductService {
     ProductMapper productMapper;
     @Autowired
     CategoryService categoryService;
+    @Autowired
+    ProductImageService productImageService;
 
     @Override
     public void add(Product p){
@@ -58,6 +62,22 @@ public class ProductServiceImpl implements ProductService {
         example.setOrderByClause("id desc");
         List result = productMapper.selectByExample(example);
         setCategory(result);
+        setFirstProductImage(result);
         return result;
+    }
+
+    @Override
+    public void setFirstProductImage(Product p){
+        List<ProductImage> pis = productImageService.list(p.getId(),ProductImageService.type_single);
+        if(!pis.isEmpty()){
+            ProductImage pi = pis.get(0);
+            p.setFirstProductImage(pi);
+        }
+    }
+
+    public void setFirstProductImage(List<Product> ps){
+        for(Product p:ps){
+            setFirstProductImage(p);
+        }
     }
 }

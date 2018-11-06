@@ -10,4 +10,6 @@ public interface ProductService {
     void update(Product p);
     Product get(int id);
     List list(int cid);
+    //新增--》产品图片
+    void setFirstProductImage(Product p);
 }
