@@ -1,7 +1,6 @@
 package com.viol3t.tmall.controller;
 
-import com.viol3t.tmall.pojo.Category;
-import com.viol3t.tmall.pojo.User;
+import com.viol3t.tmall.pojo.*;
 import com.viol3t.tmall.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,6 +29,8 @@ public class ForeController {
     OrderService orderService;
     @Autowired
     OrderItemService orderItemService;
+    @Autowired
+    ReviewService reviewService;
 
     @RequestMapping("forehome")
     public String home(Model model){
@@ -68,5 +69,28 @@ public class ForeController {
         }
         session.setAttribute("user",user);
         return "redirect:forehome";
+    }
+
+    @RequestMapping("forelogout")
+    public String logout(HttpSession session){
+        session.removeAttribute("user");
+        return "redirect:forehome";
+    }
+    @RequestMapping("foreproduct")
+    public String product(int pid,Model model){
+        Product p = productService.get(pid);
+        List<ProductImage> productSingleImages = productImageService.list(p.getId(),ProductImageService.type_single);
+        List<ProductImage> productDetailImages = productImageService.list(p.getId(),ProductImageService.type_detail);
+        p.setProductSingleImages(productSingleImages);
+        p.setProductDetailImages(productDetailImages);
+
+        List<PropertyValue> pvs = propertyValueService.list(p.getId());
+        List<Review> reviews = reviewService.list(p.getId());
+        productService.setSaleAndReviewNumber(p);
+        productService.setFirstProductImage(p);
+        model.addAttribute("reviews",reviews);
+        model.addAttribute("p",p);
+        model.addAttribute("pvs",pvs);
+        return "fore/product";
     }
 }

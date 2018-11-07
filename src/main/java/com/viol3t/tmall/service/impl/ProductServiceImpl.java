@@ -6,9 +6,7 @@ import com.viol3t.tmall.pojo.Category;
 import com.viol3t.tmall.pojo.Product;
 import com.viol3t.tmall.pojo.ProductExample;
 import com.viol3t.tmall.pojo.ProductImage;
-import com.viol3t.tmall.service.CategoryService;
-import com.viol3t.tmall.service.ProductImageService;
-import com.viol3t.tmall.service.ProductService;
+import com.viol3t.tmall.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,6 +21,10 @@ public class ProductServiceImpl implements ProductService {
     CategoryService categoryService;
     @Autowired
     ProductImageService productImageService;
+    @Autowired
+    OrderItemService orderItemService;
+    @Autowired
+    ReviewService reviewService;
 
     @Override
     public void add(Product p){
@@ -111,5 +113,18 @@ public class ProductServiceImpl implements ProductService {
         }
     }
 
+    @Override
+    public void setSaleAndReviewNumber(Product product) {
+        int saleCount = orderItemService.getSaleCount(product.getId());
+        product.setSaleCount(saleCount);
+        int reviewCount = reviewService.getCount(product.getId());
+        product.setReviewCount(reviewCount);
+    }
 
+    @Override
+    public void setSaleAndReviewNumber(List<Product> products) {
+        for (Product product:products){
+            setSaleAndReviewNumber(product);
+        }
+    }
 }

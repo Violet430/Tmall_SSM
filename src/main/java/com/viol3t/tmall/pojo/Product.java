@@ -1,6 +1,7 @@
 package com.viol3t.tmall.pojo;
 
 import java.util.Date;
+import java.util.List;
 
 public class Product {
     private Integer id;
@@ -24,6 +25,45 @@ public class Product {
 
     //新增————————》产品图片
     private ProductImage firstProductImage;
+
+
+    //产品页面显示 用到的字段
+    private List<ProductImage> productSingleImages;
+    private List<ProductImage> productDetailImages;
+    private int saleCount;
+    private int reviewCount;
+
+    public List<ProductImage> getProductSingleImages() {
+        return productSingleImages;
+    }
+
+    public void setProductSingleImages(List<ProductImage> productSingleImages) {
+        this.productSingleImages = productSingleImages;
+    }
+
+    public List<ProductImage> getProductDetailImages() {
+        return productDetailImages;
+    }
+
+    public void setProductDetailImages(List<ProductImage> productDetailImages) {
+        this.productDetailImages = productDetailImages;
+    }
+
+    public int getReviewCount() {
+        return reviewCount;
+    }
+
+    public void setReviewCount(int reviewCount) {
+        this.reviewCount = reviewCount;
+    }
+
+    public int getSaleCount() {
+        return saleCount;
+    }
+
+    public void setSaleCount(int saleCount) {
+        this.saleCount = saleCount;
+    }
 
     public ProductImage getFirstProductImage() {
         return firstProductImage;
