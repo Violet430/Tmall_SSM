@@ -7,37 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc2689c1-dfdf-471f-8371-d984fb829f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ReviewServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/product/imgAndInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/product/productDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/product/productPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/product/productReview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/ProductAllComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/ProductDateComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/ProductPriceComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/ProductReviewComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/ProductSaleCountComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/searchResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/categoryPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/productsByCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/sortBar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/productsBySearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/searchResultPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/OrderItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/OrderItemServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/controller/ForeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/controller/ForeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/OrderItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/OrderItemService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/OrderItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/OrderItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/impl/ProductServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/controller/ForeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/controller/ForeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/Review.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/OrderItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/OrderItemService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/OrderItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/OrderItemServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tmall_ssm/WEB-INF/classes/com/viol3t/tmall/service/impl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,9 +56,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="java" value="95" />
+          <entry key="java" value="102" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="77" />
+          <entry key="jsp" value="91" />
           <entry key="properties" value="3" />
           <entry key="xml" value="31" />
         </counts>
@@ -76,8 +66,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="JAVA" value="95" />
-          <entry key="JSP" value="77" />
+          <entry key="JAVA" value="102" />
+          <entry key="JSP" value="91" />
           <entry key="JavaScript" value="2" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="31" />
@@ -85,18 +75,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15582" />
+          <entry key="java" value="16986" />
           <entry key="jsp" value="127" />
           <entry key="properties" value="14" />
-          <entry key="txt" value="72" />
+          <entry key="txt" value="80" />
           <entry key="xml" value="402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15582" />
+          <entry key="JAVA" value="16986" />
           <entry key="JSP" value="127" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="PLAIN_TEXT" value="80" />
           <entry key="Properties" value="14" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="401" />
@@ -106,11 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+            <state relative-caret-position="249">
+              <caret line="157" column="5" lean-forward="true" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,86 +109,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/product.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/categoryPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="190">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/product/imgAndInfo.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/comparator/ProductPriceComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ReviewService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="76">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ReviewServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/OrderItemService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/OrderItemServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -206,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="192">
+              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,11 +146,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
+            <state relative-caret-position="287">
+              <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/searchResult.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/searchResultPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/productsBySearch.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -243,11 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/util/ImageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/util/MybatisGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/util/OverIsMergeablePlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/CategoryServiceImpl.java" />
@@ -291,9 +250,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ReviewServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/OrderItemService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/OrderItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comparator/ProductAllComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comparator/ProductDateComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comparator/ProductPriceComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comparator/ProductReviewComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comparator/ProductSaleCountComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java" />
       </list>
     </option>
   </component>
@@ -318,10 +282,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="238" />
-    <option name="y" value="-27" />
+    <option name="x" value="506" />
+    <option name="y" value="-15" />
     <option name="width" value="1735" />
-    <option name="height" value="999" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -379,15 +343,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tmall" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -406,17 +361,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="comparator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -457,16 +402,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="fore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -479,18 +414,6 @@
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
               <item name="fore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="fore" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,7 +425,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541595206758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541600925289" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -516,11 +439,11 @@
       <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\include\fore" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\include\fore\product" />
-      <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\fore" />
       <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\include\fore" />
+      <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\fore" />
+      <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\include\fore\category" />
+      <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\include\fore\product" />
       <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp" />
-      <recent name="H:\JavaPoJo\tmall_ssm\src\main\webapp\WEB-INF\jsp\include\fore\home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -664,7 +587,7 @@
       <workItem from="1541081218672" duration="4597000" />
       <workItem from="1541167074859" duration="6253000" />
       <workItem from="1541428193166" duration="4604000" />
-      <workItem from="1541488865861" duration="25433000" />
+      <workItem from="1541488865861" duration="29963000" />
     </task>
     <task id="LOCAL-00001" summary="分类、属性、产品管理">
       <created>1541485502668</created>
@@ -722,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541583302115</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="产品页面">
+      <created>1541596003707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541596003707</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75426000" />
+    <option name="totallyTimeSpent" value="79956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +670,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15616623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -750,7 +680,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850942" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33140376" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -763,6 +693,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3024602" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32803467" />
+      <window_info anchor="right" id="Module Dependencies" weight="0.2935657" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -822,270 +753,10 @@
     <MESSAGE value="增加 订单管理" />
     <MESSAGE value="首页 注册功能" />
     <MESSAGE value="登录功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录功能" />
+    <MESSAGE value="产品页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="产品页面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProperty.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ProductImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProductImage.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductImageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/tmall_ssm/WEB-INF/jsp/admin/listProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductImageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/PropertyValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/PropertyValueService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/PropertyValueServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/editPropertyValue.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/listUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/pojo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1909#1910#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2117#2118#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2521#2522#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2632#2633#0" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2877#2878#0" expanded="true" />
-            <element signature="e#2938#2939#0" expanded="true" />
-            <element signature="e#2982#2983#0" expanded="true" />
-            <element signature="e#3013#3014#0" expanded="true" />
-            <element signature="e#3041#3042#0" expanded="true" />
-            <element signature="e#3082#3083#0" expanded="true" />
-            <element signature="e#3116#3117#0" expanded="true" />
-            <element signature="e#3151#3152#0" expanded="true" />
-            <element signature="e#3185#3186#0" expanded="true" />
-            <element signature="e#3236#3237#0" expanded="true" />
-            <element signature="e#3282#3283#0" expanded="true" />
-            <element signature="e#3311#3312#0" expanded="true" />
-            <element signature="e#3338#3339#0" expanded="true" />
-            <element signature="e#3376#3377#0" expanded="true" />
-            <element signature="e#3408#3409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/PropertyValueController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1360,26 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/product.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1389,18 +1040,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/product/imgAndInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="-152">
           <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/modal.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/admin/adminHeader.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparator/ProductAllComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparator/ProductDateComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparator/ProductReviewComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparator/ProductSaleCountComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/productsByCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/sortBar.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparator/ProductPriceComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/category/categoryPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+        <state relative-caret-position="249">
+          <caret line="157" column="5" lean-forward="true" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fore/searchResult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/productsBySearch.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/searchResultPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/searchPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/fore/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
         </state>
       </provider>
     </entry>
