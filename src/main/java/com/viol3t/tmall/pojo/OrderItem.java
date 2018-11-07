@@ -11,6 +11,18 @@ public class OrderItem {
 
     private Integer number;
 
+    /*非数据库字段*/
+    private Product product;
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
+
     public Integer getId() {
         return id;
     }
