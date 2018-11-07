@@ -1831,9 +1831,6 @@
       <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/9542.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/tmall_ssm/img/productSingle_small/9543.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/controller/ForeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viol3t/tmall/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/pojo/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/viol3t/tmall/service/UserService.class" afterDir="false" />
@@ -1898,7 +1895,7 @@
           <entry key="java" value="13876" />
           <entry key="jsp" value="127" />
           <entry key="properties" value="14" />
-          <entry key="txt" value="66" />
+          <entry key="txt" value="72" />
           <entry key="xml" value="402" />
         </counts>
       </usages-collector>
@@ -1906,7 +1903,7 @@
         <counts>
           <entry key="JAVA" value="13876" />
           <entry key="JSP" value="127" />
-          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="PLAIN_TEXT" value="72" />
           <entry key="Properties" value="14" />
           <entry key="SQL" value="1" />
           <entry key="XML" value="401" />
@@ -2069,9 +2066,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="y" value="-17" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="377" />
     <option name="width" value="1735" />
     <option name="height" value="990" />
   </component>
@@ -2242,7 +2238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541582563433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541583235448" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -2404,7 +2400,7 @@
       <workItem from="1541081218672" duration="4597000" />
       <workItem from="1541167074859" duration="6253000" />
       <workItem from="1541428193166" duration="4604000" />
-      <workItem from="1541488865861" duration="19362000" />
+      <workItem from="1541488865861" duration="19865000" />
     </task>
     <task id="LOCAL-00001" summary="分类、属性、产品管理">
       <created>1541485502668</created>
@@ -2448,11 +2444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541579876904</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="登录功能">
+      <created>1541582657838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541582657838</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69355000" />
+    <option name="totallyTimeSpent" value="69858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2464,10 +2467,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-111" y="221" width="1388" height="792" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28947368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2477,7 +2479,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35748032" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2548,7 +2550,8 @@
     <MESSAGE value="增加 用户管理" />
     <MESSAGE value="增加 订单管理" />
     <MESSAGE value="首页 注册功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页 注册功能" />
+    <MESSAGE value="登录功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录功能" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/include/admin/adminFooter.jsp">
