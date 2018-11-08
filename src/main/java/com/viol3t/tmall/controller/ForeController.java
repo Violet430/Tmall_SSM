@@ -1,6 +1,7 @@
 package com.viol3t.tmall.controller;
 
 import com.github.pagehelper.PageHelper;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.viol3t.tmall.pojo.*;
 import com.viol3t.tmall.service.*;
 import com.viol3t.tmall.util.Page;
@@ -228,10 +229,37 @@ public class ForeController {
 
     @RequestMapping("forecart")
     public String cart(Model model,HttpSession session){
-        User user = (User)session.getAttribute("user");
+        User user = (User) session.getAttribute("user");
         List<OrderItem> ois = orderItemService.listByUser(user.getId());
-        model.addAttribute("oid",ois);
+        model.addAttribute("ois",ois);
         return "fore/cart";
     }
 
+    @RequestMapping("forechangeOrderItem")
+    @ResponseBody
+    public String changeOrderItem(Model model,HttpSession session,int pid,int number){
+        User user =(User) session.getAttribute("user");
+        if(null == user){
+            return "fail";
+        }
+        List<OrderItem> ois = orderItemService.listByUser(user.getId());
+        for(OrderItem oi : ois){
+            if(oi.getProduct().getId().intValue() == pid){
+                oi.setNumber(number);
+                orderItemService.update(oi);
+                break;
+            }
+        }
+        return "success";
+    }
+    @RequestMapping("foredeleteOrderItem")
+    @ResponseBody
+    public String deleteOrderItem(Model model,HttpSession session,int oiid){
+        User user = (User) session.getAttribute("user");
+        if (null==user){
+            return "fail";
+        }
+        orderItemService.delete(oiid);
+        return "success";
+    }
 }
